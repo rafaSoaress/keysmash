@@ -1,6 +1,10 @@
+import Layout from "../components/Layout";
+
 const Home = () => {
   return (
-    <div>hello</div>
+    <Layout>
+      <div className="p-5 text-6xl text-center">hello</div>
+    </Layout>
   );
 };
 
