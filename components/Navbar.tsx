@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
-    <nav className="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-3 px-4 bg-gray-800 shadow sm:items-baseline w-full">
+    <nav className="flex flex-col w-full px-4 py-3 font-sans text-center bg-gray-800 shadow sm:flex-row sm:text-left sm:justify-between sm:items-baseline">
       <div className="mb-2 sm:mb-0">
-        <a href="/home" className="text-2xl no-underline text-white hover:text-yellow-400">Home</a>
+        <a href="/" className="text-2xl text-white no-underline hover:text-yellow-400">Home</a>
       </div>
       <div>
-        <a href="" className="text-lg no-underline text-white hover:text-yellow-400 ml-2">One</a>
-        <a href="" className="text-lg no-underline text-white hover:text-blue-400 ml-2">Two</a>
-        <a href="" className="text-lg no-underline text-white hover:text-yellow-400 ml-2">Three</a>
+        <a href="/discord" className="ml-2 text-lg text-white no-underline hover:text-yellow-400">Discord</a>
+        <a href="/login" className="ml-2 text-lg text-white no-underline hover:text-yellow-400">Login</a>
+        <a href="/register" className="ml-2 text-lg text-white no-underline hover:text-yellow-400">Register</a>
       </div>
     </nav>
   );
